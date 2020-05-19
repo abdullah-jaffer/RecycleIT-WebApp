@@ -1,0 +1,35 @@
+.burger{
+    display: none;
+}
+
+.dropNav{
+    display: block;
+  
+}
+
+@media only screen and (min-width: 1300px) {
+    /* For mobile phones: */
+    .dropNav{
+        display: none;
+      
+    }
+  }
+
+  @media only screen and (min-width: 601px) {
+    /* For mobile phones: */
+    .dropNav{
+        display: none;
+      
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .burger {
+        display: inline;
+    }
+    .dropNav{
+        display: block;
+      
+    }
+  }

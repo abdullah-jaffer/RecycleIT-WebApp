@@ -1,0 +1,38 @@
+Maps {
+    text-align: center;
+  }
+  
+  .Maps-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  
+  .Maps-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+  }
+  
+  .Maps-title {
+    font-size: 1.5em;
+  }
+  
+  .Maps-intro {
+    font-size: large;
+  }
+  
+  @keyframes Maps-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
+  #map {
+    height: 100vh;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  

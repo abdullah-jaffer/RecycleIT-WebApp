@@ -1,0 +1,86 @@
+* {
+    font-size: 12px; 
+}
+.container{
+    margin-top: 0px;
+    overflow-x: hidden;
+}
+
+.element{
+    background-color:white;
+    border-left: 20px solid  #1565c0;
+}
+
+.filters{
+    width:95%;
+    padding: 2px;
+   
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.filters1{
+    width:95%;
+    padding: 2px;
+    padding-left: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.element:hover {
+    
+    border-left: 20px solid #d50000;
+
+    
+  }
+.screen{
+    margin-left: 230px;
+}
+.screen5{
+    margin-left: 200px;
+}
+p{
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.dropdown{
+    padding:8px;
+    font-family: sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 80%;
+
+}
+
+option{
+    font-family: sans-serif;
+}
+
+.appbar{
+    margin-left:200px;
+}
+
+@media screen and (max-height: 450px) {
+    .screen {margin-left: 20px;}
+    .screen5 {margin-left: 20px;}
+    .appbar{margin-left: 0px;}
+  }
+  @media only screen and (max-width: 1300px) {
+    /* For mobile phones: */
+    .screen {
+        margin-left: 22%;
+    }
+    .screen5 {margin-left: 20%;}
+    .appbar{margin-left: 20%;}
+  }
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .screen {margin-left: 20px;}
+    .screen5 {margin-left: 0px;}
+    .appbar{margin-left: 0px;}
+  }

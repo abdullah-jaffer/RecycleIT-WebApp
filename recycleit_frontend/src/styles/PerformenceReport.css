@@ -1,0 +1,48 @@
+.screen{
+    margin-left: 230px;
+    margin-top: 30px;
+    
+}
+
+.screen1{
+  margin-left: 230px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.dropdown1{
+    padding:8px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+}
+
+.dropdown2{
+  padding:8px;
+  font-family: sans-serif;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+
+}
+
+@media screen and (max-height: 450px) {
+    .screen {margin-left: 80px;}
+    .appbar{margin-left: 0px;}
+  }
+  @media only screen and (max-width: 1300px) {
+    /* For mobile phones: */
+    .screen {
+        margin-left: 22%;
+    }
+    .appbar{margin-left: 20%;}
+  }
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .screen {margin-left: 80px;}
+    .appbar{margin-left: 0px;}
+  }
