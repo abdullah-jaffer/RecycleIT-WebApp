@@ -38,7 +38,7 @@ def timed_job():
                              ' congratulations to all three, try to maintain'
                              ' your record next month!</strong>')
         try:
-            sg = SendGridAPIClient('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')
+            sg = SendGridAPIClient('apikey')
             response = sg.send(message)
         except Exception as e:
             print(e.message)

@@ -201,7 +201,7 @@ def suspend_org(request):
                      'our site manager at abdullahjaffer96@gmail.com'
                      ' for further information</strong>')
     try:
-        sg = SendGridAPIClient('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')
+        sg = SendGridAPIClient('apikey')
         response = sg.send(message)
     except Exception as e:
         print(e.message)
@@ -225,7 +225,7 @@ def cancel_suspend(request):
                      'our site manager at abdullahjaffer96@gmail.com'
                      ' for further information</strong>')
     try:
-        sg = SendGridAPIClient('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')
+        sg = SendGridAPIClient('apikey')
         response = sg.send(message)
     except Exception as e:
         print(e.message)
@@ -245,7 +245,7 @@ def send_code(request):
                      'your code is ' + str(code) +
                      ' for further information contact abdullahjaffer96@gmail.com</strong>')
     try:
-        sg = SendGridAPIClient('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')
+        sg = SendGridAPIClient('apikey')
         response = sg.send(message)
     except Exception as e:
         print(e.message)
