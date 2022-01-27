@@ -29,7 +29,7 @@
     "react-scripts": "3.3.1",
     "react-star-ratings": "^2.3.0",
     "reactstrap": "^8.4.1",
-    "three": "^0.115.0"
+    "three": "^0.137.0"
   },
   "scripts": {
     "start": "react-scripts start",
