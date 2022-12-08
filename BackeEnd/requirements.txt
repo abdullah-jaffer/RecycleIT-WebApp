@@ -9,7 +9,7 @@ dj-database-url==0.5.0
 django-cors-headers==3.2.1
 python-http-client==3.2.7
 sendgrid==6.2.1
-certifi==2020.6.20
+certifi==2022.12.7
 cloudinary==1.22.0
 six==1.15.0
 urllib3==1.26.5
